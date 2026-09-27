@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 20px;
   display: grid;
   grid-template-columns: 2fr auto;   
   grid-template-areas:
@@ -6,7 +8,7 @@ body {
     "nav    main"
     "footer footer";
   gap: 30px;
- background-color: #0d0d0d;
+ background-color: #170202;
  color: #e8e8e8;
  font-family: arial, sans-serif;
 }
@@ -14,6 +16,7 @@ body {
 header {
   grid-area: header;
   text-align: center;
+  text-decoration: underline;
 }
 
 nav {
